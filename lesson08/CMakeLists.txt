@@ -1,4 +1,4 @@
-project(lesson04greenscreen2)
+project(lesson08houghspaceExtremums)
 
 
 find_package(OpenCV 4.5.1 REQUIRED)
@@ -10,10 +10,8 @@ find_package(OpenCV 4.5.1 REQUIRED)
 # 5) После нажатия OK обратите внимание что внизу в CMake окошке появились строки успеха включая что-то вроде "Found OpenCV: C:/.../opencv/build"
 
 set(SOURCES
-        src/disjoint_set.cpp
-        src/disjoint_set.h
-        src/morphology.cpp
-        src/morphology.h ../lesson08/src/main.cpp ../lesson08/src/hough.h ../lesson08/src/hough.cpp)
+        src/hough.cpp
+        src/hough.h)
 
 set(LIBRARIES
         libutils
